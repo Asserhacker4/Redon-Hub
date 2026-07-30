@@ -7,9 +7,7 @@ generator client {
   provider             = "prisma-client-py"
   interface            = "asyncio"
   recursive_type_depth = 5
-  executable           = "/opt/venv/bin/python"
 }
-
 model User {
     // When creating a user ALWAYS pass a id, this does not have a default
     id         BigInt   @id
